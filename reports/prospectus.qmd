@@ -7,22 +7,25 @@ author:
     email: lawsbn21@wfu.edu
     affiliation: "Wake Forest University"
 abstract: |
-  This is a sample prospectus. It is a work in progress and will be updated as needed as the semester progresses.
+ The following research examines the language of media outlets across three mediums -- spoken newscasts, magazines, and newspapers -- in relation to terrorist events. To do this, various keywords and phrases were searched for within sub-corporas of the Corpus of Contemporary American English. These corporas were constructed by the primary researcher and span three separate time periods: 1900-2000, 2001, and 2002-present. The purpose of this research is to examine the language of media outlets pre-, during, and post-9/11 to see if the infamous terrorist event caused a shift in both (A) the frequency of references to terrorism and (B) the langauge used to discribe mass tradgedies. 
 keywords:
-  - prospectus
-  - sample
+  - terrorism
+  - 9/11
+  - media
+  - news
 citation: true
 bibliography: ../bibliography.bib
 ---
 
 # Introduction
 
-This research aims to analyze the language used by United States newspapers in reference organizations identified as "terrorist groups" by the United States government. The following research questions are address:
+This research aims to analyze the language used by United States media outlets pre- and post-9/11 in relation to terrorist events. The following research questions are addressed:
 
-1. What variations can be seen in the language used by American media outlets in reference to international terrorist groups?
-2. Where are there discrepancies between how governmental bodies identify groups and how the media identifies terrorist groups?
-3. What might these discrepancies mean?
-4. Does less inflammatory language or less acknowledgement of a group's "terrorist" status affect reader opinions?
+1. Did the events of 9/11 cause an increase in mentions of "terrorism" in American media outlets? 
+2. Did the events of 9/11 lead to a difference in the langauge used to describe mass tragedies?
+3. What social impacts are had when media outlets choose to use certain words/phrases?
+
+This study contains both a literature review and a corpus analysis. The first is used to provide information on the langauge of the media and its effects; the latter is to see a real-life example in the case of 9/11.
 
 ## Literature review
 
@@ -38,7 +41,15 @@ My research is not to determine what is right or wrong but, rather, to see the l
 
 # Methods
 
-This section describes the data preparation and analysis methods that will be used to address the research question or hypothesis. It should include a detailed description of the data acquisition, data organization, and data enrichment process, as well as the feature selection and engineering, analysis techniques, and evaluation process.
+1. Literature Review
+2. Corpus Analysis
+* Using the Corpus of Contemporary American English (COCA), three sub-corpora were created --- news pre-2001, news during 2001, and news post-2001. This is to separate the articles/segments into three categories, these being pre-9/11, during 9/11, and post 9/11. 
+* All three corpora were analyzed for the following:
+  + Frequency of the keywords: "Terrorism," "Terrorist," "Attack," "Extremism," and "Extremist"
+  + ADJ and "Attack" word strings
+  + ADJ and "Muslim" word strings
+  + ADJ and "Arab" word strings
+* The corpora have been loaded into R and analyzed using the R software.
 
 ## Data preparation
 
