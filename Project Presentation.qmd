@@ -70,11 +70,14 @@ Each corpora = 5000 texts
 | **Post-9/11** |    1303   |    1235   |   2157  |      34      |      58      |
 
 ## Findings: Adjectival Pairings {.scrollable}
+<br><br>
 
 <center>
+
 **ADJ + "Attack"**
 
 </center>
+
 | **Pre-9/11 News** |   **2001 News**   | **Post 9/11 News** |
 |:-----------------:|:-----------------:|:------------------:|
 |  "Terrorist" (27) | "Terrorist" (126) |  "Terrorist" (125) |
@@ -83,7 +86,7 @@ Each corpora = 5000 texts
 |   "Chemical" (7)  |   "Chemical" (7)  |    "Deadly" (12)   |
 |   "Japanese" (7)  |   "American" (6)  |  "Biological" (10) |
  
-
+<br><br><br>
 <center>
 **ADJ + "Muslim"**
 
@@ -98,6 +101,7 @@ Each corpora = 5000 texts
 |  "Prominent" (2)  | "Conservative" (4) |     "Only" (4)     |
 |   "Vibrant" (1)   |     "Black" (4)    |     "Young" (4)    |
 
+<br><br><br>
 <center>
 
 **ADJ + "Islam"**
