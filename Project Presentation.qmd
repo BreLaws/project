@@ -2,20 +2,133 @@
 title: "Language of the Media and Terrorism: In the Context of Sept. 11, 2001"
 author: "Breanna Laws"
 format: revealjs
-
+bibliography: PresBib.bib
 ---
 
 # Reporting on Terrorism
 
 ## The Emergence of "Terror" in the Media
 
-- Bullet Point
-- Bullet Point
+- References to terrorism in the media developed in the 1970s (@White_Chermak_2021)
+  - Cold War & Israel/Palestine
+- Serving as a "force multiplier"
 
 ## Sept. 11, 2001: New Complexities
 
-- Bullet Point
-- Bullet Point
+- George W. Bush's "War on Terror"
+- Spike in national security concerns
+- Served as fuel to previously rising Islamophobia
+  - EUMC Report
+    - 75 reports, 5 from each EU state, that monitored attitude changes toward Muslims following 9/11.
+    - "Muslims became indiscriminate victims of an upsurge of both
+verbal and physical attacks following the events of 11 September." (@Allen_2004)
 
 # Introduction to Research
 
+## The Project
+
+- Corpora Research
+  - Corpora of Contemporary American English (COCA)
+  - Newspapers, magazines, and newscasts
+    - References to terrorism
+    - Word choice around terrorism and other "related" vocabulary
+
+## The Purpose
+Research Questions:
+
+- Did the events of 9/11 cause an increase in mentions of “terrorism” in American media outlets?
+- Did the events of 9/11 lead to a difference in the langauge used to describe mass tragedies?
+- What social impacts are had when media outlets choose to use certain words/phrases?
+  
+## Methodology
+
+- COCA
+  - Created my own set of corpora
+    - Pre 9/11 News
+      - 1990-2000
+    - 2001 News
+    - Post 9/11 News
+      - 2001-2006
+
+Each corpora = 5000 texts
+
+## Methodology pt. 2
+- All three corpora were analyzed for the following:
+  - Frequency of the keywords: “Terrorism,” “Terrorist,” “Attack,” “Extremism,” and “Extremist”
+  - ADJ and “Attack” word strings
+  - ADJ and “Muslim” word strings
+  - ADJ and “Islam” word strings
+  
+# Findings & Discussion
+
+## Findings: Keyword Frequency
+
+|  **Corpora**  | **FOIsm** | **FOIst** | **FOA** | **FOEx-ism** | **FOEx-ist** |
+|:-------------:|:---------:|:---------:|:-------:|:------------:|:------------:|
+|  **Pre-9/11** |    171    |    179    |   1233  |      18      |      43      |
+| **2001 News** |    1064   |    1156   |   1700  |      28      |      55      |
+| **Post-9/11** |    1303   |    1235   |   2157  |      34      |      58      |
+
+## Findings: Adjectival Pairings {.scrollable}
+
+<center>
+**ADJ + "Attack"**
+
+</center>
+| **Pre-9/11 News** |   **2001 News**   | **Post 9/11 News** |
+|:-----------------:|:-----------------:|:------------------:|
+|  "Terrorist" (27) | "Terrorist" (126) |  "Terrorist" (125) |
+| "Biological" (14) | "Biological" (20) |   "Military" (17)  |
+|   "Personal" (8)  |   "Nuclear" (11)  |   "Nuclear" (12)   |
+|   "Chemical" (7)  |   "Chemical" (7)  |    "Deadly" (12)   |
+|   "Japanese" (7)  |   "American" (6)  |  "Biological" (10) |
+ 
+
+<center>
+**ADJ + "Muslim"**
+
+</center>
+
+
+| **Pre-9/11 News** |    **2001 News**   | **Post-9/11 News** |
+|:-----------------:|:------------------:|:------------------:|
+|    "Black" (5)    |    "Largest" (8)   |   "American" (9)   |
+|   "Largest" (2)   |    "Shiite" (6)    |    "Shiite" (5)    |
+|    "Local" (2)    |   "Moderate" (5)   |     "Other" (5)    |
+|  "Prominent" (2)  | "Conservative" (4) |     "Only" (4)     |
+|   "Vibrant" (1)   |     "Black" (4)    |     "Young" (4)    |
+
+<center>
+
+**ADJ + "Islam"**
+
+</center>
+
+
+|  **Pre-9/11 News** |  **2001 News**  |  **Post-9/11 News**  |
+|:------------------:|:---------------:|:--------------------:|
+|  "Traditional" (1) |  "Militant" (7) |    "Radical" (14)    |
+|     "That" (1)     | "Political" (5) |    "Militant" (12)   |
+|  "Disparaging" (1) |    "Real" (3)   | "Fundamentalist" (4) |
+| "Conventional" (1) |  "Radical" (3)  |    "Political" (2)   |
+|         ***        |  "Liberal" (3)  |   "Mainstream" (2)   |
+
+
+# Discussion of Results
+
+## What do we see?
+- Major uptick in instances of "Terrorism," "Terrorist," and "Attack"
+- Not many negative ADJ + "Muslim" pairings
+  - Seen somewhat more with ADJ + "Islam"
+
+## Further Questions
+- Is the uptick of "attack" indicative of the media exacerbating international terrorist issues?
+- How have things shifted between 2001-present day? Has there been any downturn in references to terrorism the further away we get from 9/11?
+
+## Limitations
+
+- Adjectival Pairings search limited to sample of 100
+- Exclusion of varying iterations of a word
+- Only extends to 2006
+  
+## Sources

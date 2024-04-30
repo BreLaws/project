@@ -1,0 +1,18 @@
+{
+  "hash": "e6546a14681ef0b2116589d4f85183d1",
+  "result": {
+    "markdown": "---\ntitle: \"Language of the Media and Terrorism: In the Context of Sept. 11, 2001\"\nauthor: \"Breanna Laws\"\nformat: revealjs\nbibliography: PresBib.bib\n---\n\n\n# Reporting on Terrorism\n\n## The Emergence of \"Terror\" in the Media\n\n- References to terrorism in the media developed in the 1970s @White_Chermak_2021\n  - Cold War & Israel/Palestine\n- Serving as a \"force multiplier\"\n\n## Sept. 11, 2001: New Complexities\n\n- George W. Bush's \"War on Terror\"\n- Spike in national security concerns\n\n# Introduction to Research\n\n## The Project\n\n- Corpora Research\n  - Corpora of Contemporary American English (COCA)\n  - Newspapers, magazines, and newscasts\n    - References to terrorism\n    - Word choice around terrorism and other \"related\" vocabulary\n\n## The Purpose\nResearch Questions:\n1. Did the events of 9/11 cause an increase in mentions of “terrorism” in American media outlets?\n2. Did the events of 9/11 lead to a difference in the langauge used to describe mass tragedies?\n3. What social impacts are had when media outlets choose to use certain words/phrases?\n  \n## Methodology\n\n- COCA\n  - Created my own set of corpora\n    - Pre 9/11 News\n      - 1990-2000\n    - 2001 News\n    - Post 9/11 News\n      - 2001-2024\n\n## Methodology pt. 2\n- All three corpora were analyzed for the following:\n  - Frequency of the keywords: “Terrorism,” “Terrorist,” “Attack,” “Extremism,” and “Extremist”\n  - ADJ and “Attack” word strings\n  - ADJ and “Muslim” word strings\n  - ADJ and “Arab” word strings\n  \n# Findings & Discussion\n\n## Findings\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n          Corpora  FOIsm  FOIst    FOA\n       \"Pre-9/11\"  \"171\"  \"179\" \"1233\"\n      \"2001 News\" \"1064\" \"1156\" \"1700\"\n \"Post-9/11 News\" \"1303\" \"1235\" \"2157\"\n```\n:::\n:::\n\n\n|  Corpora  | FOIsm | FOIst |  FOA |\n|:---------:|:-----:|:-----:|:----:|\n|  Pre-9/11 |  171  |  179  | 1233 |\n| 2001 News |  1064 |  1156 | 1700 |\n| Post-9/11 |  1303 |  1235 | 2157 |\n\n## Sources\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
